@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main () {
+    char nome[20], telefone[20];
+    int idade; 
+    
+
+    printf("Escreva um nome\n");
+    scanf("%s", nome);
+
+    printf("Escreva uma idade\n");
+    scanf("%d", &idade);
+
+    printf("Escreva um telefone\n");
+    scanf("%s", &telefone);
+
+    printf("Seu nome é %s/n", nome);
+    printf("Sua idade é %d/n", idade);
+    printf("Seu telefone é %s/n", telefone);
+
+
+
+
+
+
+
+}
